@@ -21,9 +21,11 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
-    <!--modules>
-        <module></module>
-    </modules-->
+    <modules>
+        <module>common-pom-A</module>
+        <module>common-pom-B</module>
+        <module>common-jar-A</module>
+    </modules>
 
     <scm>
         <url>https://github.com/hboutemy/is-sampletree/${project.scm.tag}/common/</url>
