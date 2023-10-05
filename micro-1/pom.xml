@@ -12,7 +12,7 @@
     <name>Micro Service 1</name>
     <description>First micro-service.</description>
     <url>https://hboutemy.github.io/is-sample/micro-1/</url>
-    <inceptionYear>2023</inceptionYear>
+    <inceptionYear>2020</inceptionYear>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>

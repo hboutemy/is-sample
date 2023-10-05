@@ -12,7 +12,7 @@
     <name>Product</name>
     <description>Main product.</description>
     <url>https://hboutemy.github.io/is-sample/product/</url>
-    <inceptionYear>2023</inceptionYear>
+    <inceptionYear>2018</inceptionYear>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>

@@ -32,21 +32,21 @@ $  mvn dependency:tree
 [INFO] Common POM B                                                       [pom]
 [INFO] 
 [INFO] ------------------< org.sample.common:common-parent >-------------------
-[INFO] Building Common libs and tools 1.5.0-SNAPSHOT                      [1/6]
+[INFO] Building Common libs and tools 3.1.5-SNAPSHOT                      [1/6]
 [INFO]   from pom.xml
 [INFO] --------------------------------[ pom ]---------------------------------
 [INFO] 
 [INFO] --- dependency:3.6.0:tree (default-cli) @ common-parent ---
-[INFO] org.sample.common:common-parent:pom:1.5.0-SNAPSHOT
+[INFO] org.sample.common:common-parent:pom:3.1.5-SNAPSHOT
 [INFO] \- junit:junit:jar:4.8:compile
 [INFO] 
 [INFO] -------------------< org.sample.common:common-jar-A >-------------------
-[INFO] Building Common JAR A 1.5.0-SNAPSHOT                               [2/6]
+[INFO] Building Common JAR A 3.1.5-SNAPSHOT                               [2/6]
 [INFO]   from common-jar-A/pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- dependency:3.6.0:tree (default-cli) @ common-jar-A ---
-[INFO] org.sample.common:common-jar-A:jar:1.5.0-SNAPSHOT
+[INFO] org.sample.common:common-jar-A:jar:3.1.5-SNAPSHOT
 [INFO] +- org.apache.commons:commons-lang3:jar:3.7:compile
 [INFO] +- com.google.protobuf:protobuf-java-util:jar:3.12.0:compile
 [INFO] |  +- com.google.protobuf:protobuf-java:jar:3.12.0:compile
@@ -61,25 +61,25 @@ $  mvn dependency:tree
 [INFO] \- junit:junit:jar:4.8:compile
 [INFO] 
 [INFO] -------------------< org.sample.common:common-pom-A >-------------------
-[INFO] Building Common POM A 1.5.0-SNAPSHOT                               [3/6]
+[INFO] Building Common POM A 3.1.5-SNAPSHOT                               [3/6]
 [INFO]   from common-pom-A/pom.xml
 [INFO] --------------------------------[ pom ]---------------------------------
 [INFO] 
 [INFO] --- dependency:3.6.0:tree (default-cli) @ common-pom-A ---
-[INFO] org.sample.common:common-pom-A:pom:1.5.0-SNAPSHOT
+[INFO] org.sample.common:common-pom-A:pom:3.1.5-SNAPSHOT
 [INFO] \- junit:junit:jar:4.8:compile
 [INFO] 
 [INFO] ------------------< org.sample.common:common-A-jar-A >------------------
-[INFO] Building Common A - JAR A 1.5.0-SNAPSHOT                           [4/6]
+[INFO] Building Common A - JAR A 3.1.5-SNAPSHOT                           [4/6]
 [INFO]   from common-pom-A/common-A-jar-A/pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- dependency:3.6.0:tree (default-cli) @ common-A-jar-A ---
-[INFO] org.sample.common:common-A-jar-A:jar:1.5.0-SNAPSHOT
+[INFO] org.sample.common:common-A-jar-A:jar:3.1.5-SNAPSHOT
 [INFO] +- com.fasterxml.jackson.core:jackson-databind:jar:2.10.4:compile
 [INFO] |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.10.4:compile
 [INFO] |  \- com.fasterxml.jackson.core:jackson-core:jar:2.10.4:compile
-[INFO] +- org.sample.common:common-jar-A:jar:1.5.0-SNAPSHOT:compile
+[INFO] +- org.sample.common:common-jar-A:jar:3.1.5-SNAPSHOT:compile
 [INFO] |  +- org.apache.commons:commons-lang3:jar:3.7:compile
 [INFO] |  \- com.google.protobuf:protobuf-java-util:jar:3.12.0:compile
 [INFO] |     +- com.google.protobuf:protobuf-java:jar:3.12.0:compile
@@ -94,19 +94,19 @@ $  mvn dependency:tree
 [INFO] \- junit:junit:jar:4.8:compile
 [INFO] 
 [INFO] ------------------< org.sample.common:common-A-jar-B >------------------
-[INFO] Building Common A - JAR B 1.5.0-SNAPSHOT                           [5/6]
+[INFO] Building Common A - JAR B 3.1.5-SNAPSHOT                           [5/6]
 [INFO]   from common-pom-A/common-A-jar-B/pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- dependency:3.6.0:tree (default-cli) @ common-A-jar-B ---
-[INFO] org.sample.common:common-A-jar-B:jar:1.5.0-SNAPSHOT
+[INFO] org.sample.common:common-A-jar-B:jar:3.1.5-SNAPSHOT
 [INFO] +- commons-collections:commons-collections:jar:3.2.1:compile
 [INFO] +- org.apache.httpcomponents:httpcore:jar:4.4.3:compile
-[INFO] +- org.sample.common:common-A-jar-A:jar:1.5.0-SNAPSHOT:compile
+[INFO] +- org.sample.common:common-A-jar-A:jar:3.1.5-SNAPSHOT:compile
 [INFO] |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.10.4:compile
 [INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.10.4:compile
 [INFO] |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.10.4:compile
-[INFO] |  \- org.sample.common:common-jar-A:jar:1.5.0-SNAPSHOT:compile
+[INFO] |  \- org.sample.common:common-jar-A:jar:3.1.5-SNAPSHOT:compile
 [INFO] |     +- org.apache.commons:commons-lang3:jar:3.7:compile
 [INFO] |     \- com.google.protobuf:protobuf-java-util:jar:3.12.0:compile
 [INFO] |        +- com.google.protobuf:protobuf-java:jar:3.12.0:compile
@@ -121,15 +121,15 @@ $  mvn dependency:tree
 [INFO] \- junit:junit:jar:4.8:compile
 [INFO] 
 [INFO] -------------------< org.sample.common:common-pom-B >-------------------
-[INFO] Building Common POM B 1.5.0-SNAPSHOT                               [6/6]
+[INFO] Building Common POM B 3.1.5-SNAPSHOT                               [6/6]
 [INFO]   from common-pom-B/pom.xml
 [INFO] --------------------------------[ pom ]---------------------------------
 [INFO] 
 [INFO] --- dependency:3.6.0:tree (default-cli) @ common-pom-B ---
-[INFO] org.sample.common:common-pom-B:pom:1.5.0-SNAPSHOT
+[INFO] org.sample.common:common-pom-B:pom:3.1.5-SNAPSHOT
 [INFO] \- junit:junit:jar:4.8:compile
 [INFO] ------------------------------------------------------------------------
-[INFO] Reactor Summary for Common libs and tools 1.5.0-SNAPSHOT:
+[INFO] Reactor Summary for Common libs and tools 3.1.5-SNAPSHOT:
 [INFO] 
 [INFO] Common libs and tools .............................. SUCCESS [  1.432 s]
 [INFO] Common JAR A ....................................... SUCCESS [  0.102 s]

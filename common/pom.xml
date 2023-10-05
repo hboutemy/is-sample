@@ -7,12 +7,12 @@
     <groupId>org.sample.common</groupId>
     <artifactId>common-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.5.0-SNAPSHOT</version>
+    <version>3.1.5-SNAPSHOT</version>
 
     <name>Common libs and tools</name>
     <description>Base utilities.</description>
     <url>https://hboutemy.github.io/is-sample/common/</url>
-    <inceptionYear>2023</inceptionYear>
+    <inceptionYear>2019</inceptionYear>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -32,6 +32,7 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.8</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
