@@ -27,6 +27,14 @@
         <module>common-jar-A</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.8</version>
+        </dependency>
+    </dependencies>
+
     <scm>
         <url>https://github.com/hboutemy/is-sampletree/${project.scm.tag}/common/</url>
         <connection>scm:git:https://github.com/hboutemy/is-sample.git</connection>
