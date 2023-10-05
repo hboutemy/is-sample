@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.sample.micro1</groupId>
+    <artifactId>micro1-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>2.1.0-SNAPSHOT</version>
+
+    <name>Micro Service 1</name>
+    <description>First micro-service.</description>
+    <url>https://hboutemy.github.io/is-sample/micro-1/</url>
+    <inceptionYear>2023</inceptionYear>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+    <!--modules>
+        <module></module>
+    </modules-->
+
+    <scm>
+        <url>https://github.com/hboutemy/is-sample/tree/${project.scm.tag}/micro-1/</url>
+        <connection>scm:git:https://github.com/hboutemy/is-sample.git</connection>
+        <developerConnection>https://github.com/hboutemy/is-sample.git</developerConnection>
+        <tag>main</tag>
+    </scm>
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/hboutemy/is-sample/issues</url>
+    </issueManagement>
+
+    <ciManagement>
+        <system>GitHub</system>
+        <url>https://github.com/hboutemy/is-sample/actions</url>
+    </ciManagement>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
+</project>
