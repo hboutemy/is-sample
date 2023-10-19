@@ -21,9 +21,11 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
-    <!--modules>
-        <module></module>
-    </modules-->
+    <modules>
+        <module>micro-1-jar-A</module>
+        <module>micro-1-jar-B</module>
+        <module>micro-1-jar-C</module>
+    </modules>
 
     <scm>
         <url>https://github.com/hboutemy/is-sample/tree/${project.scm.tag}/micro-1/</url>
